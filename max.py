@@ -1,6 +1,6 @@
-a=[1,2,212,7,33,214,5]
-amax=a[1]
-for i in range(len(a)):
-    if amax<=a[i]:
-        amax=a[i]
+n=int(input())
+a=[]
+for i in range(n):
+    a.append(int(input()))
+amax=max(a)
 print(amax)
